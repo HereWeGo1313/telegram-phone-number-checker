@@ -46,7 +46,7 @@ async def get_names(
     """
     result = {}
     logging.info(f"Checking: {phone_number=} ...")
-    try:
+    try:9519076867
         # Create a contact
         contact = types.InputPhoneContact(
             client_id=0, phone=phone_number, first_name="", last_name=""
